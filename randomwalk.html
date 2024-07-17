@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
+  <title>Animated BFS</title>
+
+  <style>
+    body { 
+	font: 14px helvetica neue, helvetica, arial, sans-serif;
+	margin: 0; /* Ensure no default margin to fill the viewport */
+    }
+    
+    #cy {
+	height: 100vh; /* Full viewport height */
+	width: 100vw; /* Full viewport width */
+	position: absolute;
+	left: 0;
+	top: 0;
+	background-color: #333; /* Optional: a background color to ensure visibility */
+    }
+   
+    </style>
+  <h> Preparing </h>
+  <script src="libraries/cytoscape.min.js"></script>
+  <script src="js/code.js"></script>
+</head>
+<body>
+  <div id="cy"></div>
+  <div id="step-counter">Steps: 0</div>
+</body>
+</html>
+
